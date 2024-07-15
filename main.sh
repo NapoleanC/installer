@@ -46,7 +46,7 @@ function main() {
 		printf "Please add in the .xinitrc: xsetroot -cursor_name left_ptr\nexec bspwm."
 
 		sudo pacman -S pavucontrol pipewire pipewire-pulse
-		sudo pacman -S lxappearance qt5ct
+		sudo pacman -S lxappearance qt5ct brightnessctl
 
 		sudo echo "QT_QPA_PLATFORMTHEME=\"qt5ct\"" | sudo tee -a /etc/environment
 
